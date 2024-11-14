@@ -123,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				78B1C67D2CE256AD00360F92 /* R */,
-				78B1C67C2CE256A900360F92 /* U */,
 				78B1C67B2CE256A400360F92 /* Loading */,
 				78B1C67A2CE256A000360F92 /* Launch */,
 			);
@@ -174,13 +173,6 @@
 				78B1C69B2CE2585B00360F92 /* LoadingView.swift */,
 			);
 			path = Loading;
-			sourceTree = "<group>";
-		};
-		78B1C67C2CE256A900360F92 /* U */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = U;
 			sourceTree = "<group>";
 		};
 		78B1C67D2CE256AD00360F92 /* R */ = {
