@@ -30,6 +30,12 @@
 		78B1C6A62CE269D500360F92 /* AddStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C6A52CE269D500360F92 /* AddStaff.swift */; };
 		78B1C6A82CE2736C00360F92 /* PriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C6A72CE2736C00360F92 /* PriceViewModel.swift */; };
 		78B1C6AB2CE27D7A00360F92 /* AddPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C6AA2CE27D7900360F92 /* AddPrice.swift */; };
+		78EB5B322CF21CC400B7ECCC /* SdemAc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B312CF21CC400B7ECCC /* SdemAc.swift */; };
+		78EB5B342CF21CCF00B7ECCC /* WopHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B332CF21CCF00B7ECCC /* WopHand.swift */; };
+		78EB5B362CF21CDB00B7ECCC /* Droppima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B352CF21CDB00B7ECCC /* Droppima.swift */; };
+		78EB5B392CF21FCB00B7ECCC /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B382CF21FCB00B7ECCC /* U1.swift */; };
+		78EB5B3B2CF21FD200B7ECCC /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B3A2CF21FD200B7ECCC /* Reviews.swift */; };
+		78EB5B3D2CF21FD900B7ECCC /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B3C2CF21FD900B7ECCC /* Not.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +64,12 @@
 		78B1C6A52CE269D500360F92 /* AddStaff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStaff.swift; sourceTree = "<group>"; };
 		78B1C6A72CE2736C00360F92 /* PriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewModel.swift; sourceTree = "<group>"; };
 		78B1C6AA2CE27D7900360F92 /* AddPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrice.swift; sourceTree = "<group>"; };
+		78EB5B312CF21CC400B7ECCC /* SdemAc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdemAc.swift; sourceTree = "<group>"; };
+		78EB5B332CF21CCF00B7ECCC /* WopHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WopHand.swift; sourceTree = "<group>"; };
+		78EB5B352CF21CDB00B7ECCC /* Droppima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Droppima.swift; sourceTree = "<group>"; };
+		78EB5B382CF21FCB00B7ECCC /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		78EB5B3A2CF21FD200B7ECCC /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		78EB5B3C2CF21FD900B7ECCC /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 		78B1C6752CE2568800360F92 /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				78EB5B372CF21FC300B7ECCC /* U */,
 				78B1C67D2CE256AD00360F92 /* R */,
 				78B1C67B2CE256A400360F92 /* Loading */,
 				78B1C67A2CE256A000360F92 /* Launch */,
@@ -144,6 +157,9 @@
 				78B1C68F2CE2582D00360F92 /* Array.swift */,
 				78B1C6912CE2583800360F92 /* CoreDataStack.swift */,
 				78B1C6952CE2584700360F92 /* DateConvert.swift */,
+				78EB5B312CF21CC400B7ECCC /* SdemAc.swift */,
+				78EB5B332CF21CCF00B7ECCC /* WopHand.swift */,
+				78EB5B352CF21CDB00B7ECCC /* Droppima.swift */,
 			);
 			path = Extenions;
 			sourceTree = "<group>";
@@ -246,6 +262,16 @@
 			path = AddPrice;
 			sourceTree = "<group>";
 		};
+		78EB5B372CF21FC300B7ECCC /* U */ = {
+			isa = PBXGroup;
+			children = (
+				78EB5B382CF21FCB00B7ECCC /* U1.swift */,
+				78EB5B3A2CF21FD200B7ECCC /* Reviews.swift */,
+				78EB5B3C2CF21FD900B7ECCC /* Not.swift */,
+			);
+			path = U;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B1C6962CE2584700360F92 /* DateConvert.swift in Sources */,
+				78EB5B3B2CF21FD200B7ECCC /* Reviews.swift in Sources */,
 				78B1C6A32CE2655700360F92 /* StaffViewModel.swift in Sources */,
 				78B1C6682CE2564100360F92 /* ContentView.swift in Sources */,
 				78B1C6A12CE2636300360F92 /* AddSchedule.swift in Sources */,
@@ -326,17 +353,22 @@
 				78B1C6982CE2584D00360F92 /* Rev1.swift in Sources */,
 				78B1C6882CE2581100360F92 /* SettingsView.swift in Sources */,
 				78B1C69C2CE2585B00360F92 /* LoadingView.swift in Sources */,
+				78EB5B322CF21CC400B7ECCC /* SdemAc.swift in Sources */,
+				78EB5B3D2CF21FD900B7ECCC /* Not.swift in Sources */,
 				78B1C6922CE2583800360F92 /* CoreDataStack.swift in Sources */,
+				78EB5B362CF21CDB00B7ECCC /* Droppima.swift in Sources */,
 				78B1C6862CE2580600360F92 /* CoreModel.xcdatamodeld in Sources */,
 				78B1C6A62CE269D500360F92 /* AddStaff.swift in Sources */,
 				78B1C6A82CE2736C00360F92 /* PriceViewModel.swift in Sources */,
 				78B1C68C2CE2582000360F92 /* StaffView.swift in Sources */,
 				78B1C6902CE2582D00360F92 /* Array.swift in Sources */,
+				78EB5B392CF21FCB00B7ECCC /* U1.swift in Sources */,
 				78B1C6662CE2564100360F92 /* App1001App.swift in Sources */,
 				78B1C69A2CE2585300360F92 /* Rev2.swift in Sources */,
 				78B1C68A2CE2581A00360F92 /* PriceView.swift in Sources */,
 				78B1C69E2CE25EB100360F92 /* HomeViewModel.swift in Sources */,
 				78B1C6942CE2583E00360F92 /* TabBar.swift in Sources */,
+				78EB5B342CF21CCF00B7ECCC /* WopHand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -523,7 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
